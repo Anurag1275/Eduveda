@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    
+    color:antiquewhite;
+}
+
+.navmain {
+    background-color:#1A1A19;
+    display: flex;
+    height: 50px;
+    margin-left: 250px;
+    gap: 220px; 
+    margin-top: 12px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 25px; 
+}
+article{
+    background-color: #1A1A19;
+}
+.navmain span {
+    color: whitesmoke;
+}
+
+.signup, .Login {
+    background-color: yellow;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.signup:hover, .Login:hover {
+    background-color: yellow;
+}
+.container{
+    background-color: #1A1A19;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    border-radius: 50px;
+    background-color: rgb(51, 159, 221);
+    font-size: 20px;;
+}
+.signup{
+    background-color: white;
+    border-radius: 48px;
+    font-weight: bold;
+color:black;
+
+}
+.Login{
+    background-color: white;
+    border-radius: 48px;
+color:black;
+font-weight: bold;
+font-size: medium;
+}
+.opening{
+    margin-left: 450px;
+    margin-top:20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.demo{
+    border-radius: 50px;
+    color:black;
+    background-color: white;
+margin-left: 112px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero-section{
+    background-color:#31511e;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+footer{
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 450px;
+    color: black;
+}
+.faqs{
+    margin: 0;
+    background-color: #859f3d;
+    
+}
+.faq-container {
+    max-width: 600px; 
+    margin: 20px auto; 
+    border: 1px solid black; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee; 
+}
+
+.faq-item:last-child {
+    border-bottom: none; 
+}
+
+.faq-question {
+    padding: 15px;
+    margin: 0; 
+    cursor: pointer; 
+    background-color: #859f3d; 
+}
+
+.faq-answer {
+    padding: 15px; 
+    display: none; 
+    background-color:#859f3d; }
